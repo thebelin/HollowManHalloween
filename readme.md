@@ -22,11 +22,13 @@ Proposed Technologies:
 * RTSP transport layer
 * Look into the use of 3rd party streaming server
 
+The existing app, spyDroid, is a default implementation of the media Streaming API as showin in example 1, and can support all the functions listed as requirements, and is free, and doesn't embed ads in the stream.  Use it instead of building a stream capture system for this instance.
+
 
 Client for iOS
 __________________________
 Minimum Function:
-A web or app for iOS which displays an RTSP stream playing from the local android device
+A web or app for iOS which displays an RTSP stream playing from the local network
 
 Advanced Functions:
 1. AR tag recognition and object insertion to the stream
@@ -35,7 +37,8 @@ Advanced Functions:
 Proposed Technologies:
 * Video playback through standard stream player
 * For advanced functions, video playback through an AR filter will be necessary.
-
+* vuforia AR library can be used to manage AR tags
+* vuforia also includes a media playback system compatible with Unity and rtsp
 
 Additional Hardware
 ___________________________
